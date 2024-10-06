@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<catgegory>
+	    <patter>SOFTWAREDEVELOPER</patter>
+	    <template>
+	        #insert write up on software development
+	        <link>
+	            <text>More Information about Software Developement as a Career</text>
+	            <url>https://www.indeed.com/career-advice/careers/what-does-a-software-developer-do</url>
+            </link>
+	    </template>
+	</catgegory>
+	
+	<category>
+	    <pattern>DATABASEADMINISTRATOR</pattern>
+	    <template>
+	        #insert write up on data base administration
+	        <link>
+	            <Text>More Information about Database Administration as a Career</Text>
+	            <url>https://www.indeed.com/career-advice/careers/what-does-a-database-administrator-do</url>
+	        </link>
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>WEBDEVELOPER</pattern>
+	    <template>
+            #insert write up on web developer
+            <link>
+                <text>More infomation about Web Development as a Career</text>
+                <url>https://www.indeed.com/career-advice/careers/what-does-a-web-developer-do</url>
+            </link>
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>COMPUTERSYSTEMSANALYST</pattern>
+	    <template>
+	        <link>
+	            <text>More Information about Computer Systems Alalyst as a Career</text>
+	            <url>https://www.indeed.com/career-advice/careers/what-does-a-systems-analyst-do</url>
+	        </link>
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>BUSINESSANALYST</pattern>
+	    <template>
+	        <link>
+	            <text>More Information about Business Analyst as a Career</text>
+	            <url>https://www.indeed.com/career-advice/careers/what-does-a-business-analyst-do</url>
+	        </link>
+	    </template>
+	</category>
+	 
+	<category>
+	    <pattern>^ SOFTWARE DEVELOPER ^</pattern>
+	    <template>
+	        <srai>SOFTWAREDEVELOPER
+	        </srai>
+	    </template>
+	</category> 
+	
+	<category>
+	    <pattern>^ DATABASE ADMINISTRATOR ^</pattern>
+	    <template>
+	        <srai>DATABASEADMINISTRATOR
+	        </srai>
+	    </template>
+	</category> 
+	
+	<category>
+	    <pattern>^ WEB DEVELOPER ^</pattern>
+	    <template>
+	        <srai>WEBDEVELOPER
+	        </srai>
+	    </template>
+	</category> 
+	
+	<category>
+	    <pattern>^ COMPUTER SYSTEMS ANALYST ^</pattern>
+	    <template>
+	        <srai>COMPUTERSYSTEMSANALYST
+	        </srai>
+	    </template>
+	</category> 
+	
+	<category>
+	    <pattern>^ BUSINESS ANALYST ^</pattern>
+	    <template>
+	        <srai>BUSINESS ANALYST
+	        </srai>
+	    </template>
+	</category> 
+</aiml>
