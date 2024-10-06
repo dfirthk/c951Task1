@@ -1,4 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
-	<!-- insert your AIML categories here -->
+	<category>
+	    <pattern>TAKE ASSESSMENT</pattern>
+	    <template>
+	        This assessment will help you determine what your strenths and weaknesses are
+	        in order to help identify the best career path for you post degree. This assessment
+	        is strictly to determine your interests and find, what we think, the best fit for you.
+	        <reply>
+	            <text>Start Career Assessment</text>
+	            <postback>START ASSESSMENT</postback>
+	        </reply>
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>START ASSESSMENT</pattern>
+	    <template>
+	        What computer science category interests you more?
+	        <reply>
+	            <text>Coding</text>
+	            <postback>CODING</postback>
+	        </reply>
+	        <reply>
+	            <text>Networking</text>
+	            <postback>NETWORKING</postback>
+	        </reply>
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>CODING</pattern>
+	    <template>
+	        Are you a person that enjoys coding AND having a hand in the entire design process? 
+	        <reply>
+	            <text>Yes</text>
+	            <postback>SOFTWAREDEVELOPER</postback>
+	        </reply>
+	        <reply>
+	            <text>No</text>
+	            <postback>NOSOFTWAREDEVELOPER</postback>
+	        </reply>
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>NOSFOTWAREDEVELOPER</pattern>
+	    <template>
+	        Do you enjoy designing websites, along with coding on the back end?
+	        <reply>
+	            <text>Yes</text>
+	            <postback>WEBDEVELOPER</postback>
+	        </reply>
+	        <reply>
+	            <text>No</text>
+	            <postback>NOMATCH</postback>
+	        </reply>
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>NETWORKING</pattern>
+	    <template>
+	        Do you have an interest on how information is stored, secured and accessed?
+	        <reply>
+	            <text>Yes</text>
+	            <postback>DATABASEADMINISTRATOR</postback>
+	        </reply>
+	        <reply>
+	            <text>No</text>
+	            <postback>NODATABASEADMINISTRATOR</postback>
+	        </reply>
+	    </template>
+	</category>
+	
+	
 </aiml>

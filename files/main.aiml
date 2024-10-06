@@ -1,4 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
-	<!-- insert your AIML categories here -->
+    
+<category>
+    <pattern>HELLO</pattern>
+    <template>
+        Hi there, my name is CC and I am here to help with the C.S. Career Advisors here.<srai>MAINOPTION</srai> 
+    </template>
+</category>
+
+<category>
+    <pattern>Hi ^</pattern>
+    <template><sari>HELLO</sari></template>
+</category>
+
+<category>
+    <pattern>MAINOPTION</pattern>
+    <template>
+        <break></break>Please choose from the following options:
+        <button>
+            <text>Take the CS Career Assessment Test</text>
+            <postback>VIEW CAREERS</postback>
+        </button>
+        <button>
+            <text>View popular Computer Science Careers</text>
+            <postback>VIEW CAREERS</postback>
+        </button>
+    </template>
+</category>
+
+
+
 </aiml>
